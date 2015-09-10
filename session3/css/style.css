@@ -1,0 +1,40 @@
+/* type selectors */
+article, aside, figure, figcaption, footer, header, nav, section {
+    display: block;
+}
+
+body {
+	font-family: Papyrus, fantasy;
+    max-width: 600px;
+}
+
+aside {
+	margin: 50px 20px 10px 0;
+	width: 175px;
+	float: right;
+}
+
+section {
+	padding: 15px 25px;
+}
+
+.menu-item {
+    font-size: 120%;
+	cursor: pointer;
+}
+
+img {
+    display: block;
+}
+
+.hide {
+	display: none;
+}
+
+
+ul {
+	padding-left: 45px;
+}
+li {
+	padding-bottom: .25em;
+}
