@@ -1,6 +1,6 @@
-var cats = {
-
-    [
+var pets = {
+    
+    cats : [
         {
             name: "Bart",
             age: 18,
@@ -12,6 +12,10 @@ var cats = {
             weight: 16
         }
     ]
-}
+};
 
-console.log(cat.name);
+var cats = pets.cats;
+console.log(cats)
+
+var bart = cats[0]
+console.log(bart.name);
